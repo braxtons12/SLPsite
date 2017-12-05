@@ -1,0 +1,483 @@
+/*body styles*/
+body {
+font-family: 'Permanent Marker', cursive;
+text-shadow: -1px -1px 1px #222222, 1px 1px 1px #222222;
+margin:0 auto;
+
+}
+
+    /*background styles*/
+    .backgroundSet {
+
+        height:1200px;
+        width:100%;
+        float:left;
+        position:relative;
+        z-index:2;
+        margin:0 auto;
+    }
+
+        /*background image styles*/
+        .backgroundImage {
+
+            height:1200px;
+            width:100%;
+            float:left;
+            position:relative;
+            z-index:0;
+            margin:0 auto;
+        }
+
+            #homeBackgroundImage {
+
+                height:1300px;
+                width:100%;
+                background-image: url('res/images/mixingboard.png');
+                background-position:center;
+                background-size:cover;
+                margin:0 auto;
+            }
+
+            #aboutMeBackgroundImage {
+
+                height: 1300px;
+                width: 100%;
+                background-image: url('res/images/mixingboard.png');
+                background-position:center;
+                background-size:cover;
+                filter:blur(10px);
+                margin:0 auto;
+            }
+
+            #portfolioBackgroundImage {
+
+            }
+
+            #contactBackgroundImage {
+
+            }
+
+        /*END background image styles*/
+
+        /*background FX styles*/
+        .backgroundFX {
+
+            height:1300px;
+            width:100%;
+            float:left;
+            position:absolute;
+            z-index:1;
+            margin:0 auto;
+        }
+
+            #homeBackgroundFX {
+
+                height:1300px;
+                width:100%;
+                margin:0 auto;
+            }
+
+            #aboutMeBackgroundFX {
+
+                height:1300px;
+                width:100%;
+                background-position:center;
+                background-size:cover;
+                background-color:#bbbbbb;
+                opacity: 0.2;
+                margin:0 auto;
+            }
+
+            #portofolioBackgroundFX {
+
+            }
+
+            #contactBackgroundFX {
+
+            }
+        /*END background FX styles*/
+
+    /*END background styles*/
+
+    /*foreground styles*/
+    .foregroundSet {
+
+        height:1200px;
+        width:100%;
+        float:left;
+        position:absolute;
+        z-index:3;
+    }
+
+        /*navigation style*/
+        nav {
+
+            height:80px;
+            width:100%;
+            background-color:#444444;
+            margin-left:0;
+            margin-right:0;
+            margin-top:0;
+        }
+
+            /*logo style*/
+            #logo {
+
+                float:left;
+                height:51px;
+                width:200px;
+                color:#8f2121;
+                padding-left:30px;
+                padding-top:23px;
+                font-size:30px;
+                letter-spacing:2px;
+                font-weight:900;
+                font-family:cursive;
+                white-space:nowrap;
+            }
+
+                #logo a {
+
+                    text-decoration:none;
+                    color:#6f1212;
+                }
+            /* END logo style */
+
+            /*links style*/
+            #navLinks {
+
+                list-style:none;
+                float:right;
+                padding-right:30px;
+                padding-top:10px;
+            }
+
+                #navLinks li {
+
+                    float:left;
+                    padding-left:20px;
+                }
+
+                    #navLinks li a {
+
+                        color:#AAAAAA;
+                        text-decoration:none;
+                        letter-spacing:2px;
+                        font-size:20px;
+                    }
+
+                    #navLinks li .current {
+
+                        color:#6f1111;
+                    }
+            /*END links style*/
+
+        /* END navigation style */
+
+        /* introduction style */
+        #intro {
+
+            height:1200px;
+            width:100%;
+        }
+
+            #intro h2 {
+
+                font-size: 75px;
+                letter-spacing:2px;
+                text-transform:uppercase;
+                color:#8F2121;
+                padding-top:300px;
+                text-align:center;
+                margin-top:0;
+            }
+        /* END introduction style*/
+
+        /* about me styles */
+
+        /*about me head style*/
+        #aboutMeHead {
+
+            height:1200px;
+            width:100%;
+        }
+
+            #aboutMeHead h1 {
+
+                font-size:60px;
+                text-align:center;
+                letter-spacing:4px;
+                padding-top:100px;
+                margin-top:0;
+                margin-bottom:0;
+                color:#6F1111;
+            }
+
+            #aboutMeHead h2 {
+
+                text-align:center;
+                color:#6f1111;
+                letter-spacing:5px;
+                font-size:18px;
+                font-weight:300;
+                margin-top:5px;
+                margin-bottom:30px;
+            }
+        /*END about me head style*/
+
+        /*about me content styles*/
+        #aboutMe {
+            height:600px;
+            width: 1200px;
+            border:2px solid #aaaaaa;
+            margin:100px auto;
+            margin-top:20px;
+            display:table;
+            float:none;
+            background-color: #eeeeee;
+        }
+
+            /*about mixing styles*/
+            #aboutMixing {
+
+                height:608px;
+                width:399px;
+                float:left;
+            }
+
+                /*about mixing background style*/
+                #aboutMixingBackgroundSet {
+
+                    height:608px;
+                    width:399px;
+                    position:absolute;
+                    z-index:6;
+                }
+
+                    #aboutMixingBackgroundImage {
+
+                        height:612px;
+                        width:100%;
+                        background-image: url('res/images/mixingboard.png');
+                        background-position:center;
+                        background-size:cover;
+                        position:relative;
+                        z-index:4;
+                        filter:blur(1px);
+                        float:left;
+                    }
+
+                    #aboutMixingBackgroundFX {
+
+                        margin-top:200px;
+                        height:160px;
+                        width:100%;
+                        background-color:#bbbbbb;
+                        opacity:0.4;
+                        position: absolute;
+                        z-index:5;
+                        float:left;
+                    }
+                /*END about mixing background style*/
+
+                /*about mixing foreground style*/
+                #aboutMixingForegroundSet {
+
+                    height:608px;
+                    width:399px;
+                    position:absolute;
+                    z-index:7;
+                    padding: 0;
+                    margin: 0 auto;
+                }
+
+                    #aboutMixingForegroundSet h1 {
+
+                        padding-top:120px;
+                        text-align:center;
+                        font-size:50px;
+                    }
+
+                    #aboutMixingForegroundSet p {
+
+                        text-align:center;
+                        padding:5px;
+                        padding-top:0px;
+                        text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
+                    }
+                /*END about mixing foreground style*/
+
+            /*END about mixing styles*/
+
+            /*about myself styles*/
+            #aboutMyself {
+
+                height:608px;
+                width:398px;
+                border:2px solid #aaaaaa;
+                float:left;
+            }
+
+                /*about myself background style*/
+                #aboutMyselfBackgroundSet {
+
+                    height:608px;
+                    width:398px;
+                    position:absolute;
+                    z-index:10;
+                }
+
+                    #aboutMyselfBackgroundImage {
+
+                        height:608px;
+                        width:100%;
+                        background-image: url('res/images/music.jpg');
+                        background-position:center;
+                        background-size:cover;
+                        position:relative;
+                        z-index:8;
+                        filter:blur(2px);
+                        float:left;
+                    }
+
+                    #aboutMyselfBackgroundFX {
+
+                        margin-top:200px;
+                        height:160px;
+                        width:100%;
+                        position:absolute;
+                        background-color:#bbbbbb;
+                        opacity:0.4;
+                        z-index:9;
+                        float:left;
+                    }
+                /*END about myself background style*/
+
+                /*about myself foreground style*/
+                #aboutMyselfForegroundSet {
+
+                    height:608px;
+                    width:398px;
+                    position:absolute;
+                    padding: 0;
+                    margin: 0 auto;
+                    z-index:11;
+                }
+
+                    #aboutMyselfForegroundSet h1 {
+
+                        padding-top:120px;
+                        text-align:center;
+                        font-size:50px;
+                    }
+
+                    #aboutMyselfForegroundSet p {
+
+                        text-align:center;
+                        padding:5px;
+                        padding-top:0px;
+                        text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
+                    }
+                /*END about myself foreground style*/
+
+            /*END about myself styles*/
+
+            /*about mastering styles*/
+            #aboutMastering {
+
+                height:608px;
+                width:399px;
+                float:left;
+            }
+
+                /*about mastering background style*/
+                #aboutMasteringBackgroundSet {
+
+                    height:608px;
+                    width:399px;
+                    position:absolute;
+                    z-index:10;
+                }
+
+                    #aboutMasteringBackgroundImage {
+
+                        height:612px;
+                        width:100%;
+                        background-image: url('res/images/music.jpg');
+                        background-position:center;
+                        background-size:cover;
+                        position:relative;
+                        z-index:8;
+                        filter:blur(2px);
+                        float:left;
+                    }
+
+                    #aboutMasteringBackgroundFX {
+
+                        margin-top:200px;
+                        height:160px;
+                        width:100%;
+                        position:absolute;
+                        background-color:#bbbbbb;
+                        opacity:0.4;
+                        z-index:9;
+                        float:left;
+                    }
+                /*END about mastering background style*/
+
+                /*about mastering forground style*/
+                #aboutMasteringForegroundSet {
+
+                    height:608px;
+                    width:399px;
+                    padding: 0;
+                    margin: 0 auto;
+                    position:absolute;
+                    z-index:11;
+                }
+
+                    #aboutMasteringForegroundSet h1 {
+
+                        padding-top:120px;
+                        text-align:center;
+                        font-size:50px;
+                    }
+
+                    #aboutMasteringForegroundSet p {
+
+                        text-align:center;
+                        padding:5px;
+                        padding-top:0px;
+                        text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
+                    }
+                /*END about mastering foreground style*/
+
+            /*END about mastering styles*/
+
+        /*END about me content styles*/
+
+        /* END about me styles */
+
+        /* footer style */
+        #footer {
+
+            height:50px;
+            width:100%;
+            background-color:#444444;
+        }
+
+            #footer p {
+
+                text-align:center;
+                color: #888888;
+                font-weight:600;
+                padding-top:15px;
+                letter-spacing:2px;
+                font-size:14px;
+                margin-top:0;
+            }
+        /* END footer style */
+
+    /*END foreground styles*/
+
+/*END body styles*/
