@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="6b4daab5-fb17-48a6-9e5b-71240c69ba05" kpf_version="5" name="Scarlet Letters Productions Site.komodoproject">
+<file id="0bfd5d3e-b63a-4398-89a0-f9342f34b6e2" idref="6b4daab5-fb17-48a6-9e5b-71240c69ba05" name="style.css" url="style.css">
+</file>
+<file id="3bf640ad-b26d-46cc-9892-f7ba93d71f2a" idref="6b4daab5-fb17-48a6-9e5b-71240c69ba05" name="contact.html" url="contact.html">
+</file>
+<file id="44d77cf6-9675-4ea0-95c3-eba99aa78b9c" idref="6b4daab5-fb17-48a6-9e5b-71240c69ba05" name="index.html" url="index.html">
+</file>
+<file id="4b6bef28-2f5b-4d1b-8061-826185833a09" idref="6b4daab5-fb17-48a6-9e5b-71240c69ba05" name="aboutMe.html" url="aboutMe.html">
+</file>
+<file id="63120c0c-f172-4d26-95a6-b48c0a220846" idref="6b4daab5-fb17-48a6-9e5b-71240c69ba05" name="portfolio.html" url="portfolio.html">
+</file>
+<preference-set idref="6b4daab5-fb17-48a6-9e5b-71240c69ba05" id="project" preftype="project">
+  <long id="prefs_version">1</long>
+</preference-set>
+</project>
