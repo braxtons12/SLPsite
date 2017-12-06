@@ -9,7 +9,7 @@ margin:0 auto;
     /*background styles*/
     .backgroundSet {
 
-        height:1200px;
+        min-height:1200px;
         width:100%;
         float:left;
         position:relative;
@@ -20,7 +20,7 @@ margin:0 auto;
         /*background image styles*/
         .backgroundImage {
 
-            height:1200px;
+            min-height:1200px;
             width:100%;
             float:left;
             position:relative;
@@ -30,7 +30,7 @@ margin:0 auto;
 
             #homeBackgroundImage {
 
-                height:1300px;
+                min-height:1300px;
                 width:100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -40,7 +40,7 @@ margin:0 auto;
 
             #aboutMeBackgroundImage {
 
-                height: 1300px;
+                min-height: 1300px;
                 width: 100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -62,7 +62,7 @@ margin:0 auto;
         /*background FX styles*/
         .backgroundFX {
 
-            height:1300px;
+            min-height:1300px;
             width:100%;
             float:left;
             position:absolute;
@@ -72,14 +72,14 @@ margin:0 auto;
 
             #homeBackgroundFX {
 
-                height:1300px;
+                min-height:1300px;
                 width:100%;
                 margin:0 auto;
             }
 
             #aboutMeBackgroundFX {
 
-                height:1300px;
+                min-height:1300px;
                 width:100%;
                 background-position:center;
                 background-size:cover;
@@ -114,32 +114,32 @@ margin:0 auto;
 
             height:80px;
             width:100%;
-            background-color:#444444;
+            background-color:#333333;
             margin-left:0;
             margin-right:0;
             margin-top:0;
+            box-shadow: 2px 2px 2px 2px #222222;
         }
 
             /*logo style*/
             #logo {
 
-                float:left;
+                display:inline-block;
                 height:51px;
                 width:200px;
                 color:#8f2121;
                 padding-left:30px;
-                padding-top:23px;
+                padding-top:18px;
                 font-size:30px;
                 letter-spacing:2px;
                 font-weight:900;
-                font-family:cursive;
                 white-space:nowrap;
             }
 
                 #logo a {
 
                     text-decoration:none;
-                    color:#6f1212;
+                    color:#7f1111;
                 }
             /* END logo style */
 
@@ -147,9 +147,10 @@ margin:0 auto;
             #navLinks {
 
                 list-style:none;
+                display:inline-block;
                 float:right;
                 padding-right:30px;
-                padding-top:10px;
+                padding-top:23px;
             }
 
                 #navLinks li {
@@ -163,12 +164,12 @@ margin:0 auto;
                         color:#AAAAAA;
                         text-decoration:none;
                         letter-spacing:2px;
-                        font-size:20px;
+                        font-size:24px;
                     }
 
                     #navLinks li .current {
 
-                        color:#6f1111;
+                        color:#7f1111;
                     }
             /*END links style*/
 
@@ -186,7 +187,7 @@ margin:0 auto;
                 font-size: 75px;
                 letter-spacing:2px;
                 text-transform:uppercase;
-                color:#8F2121;
+                color:#7f1111;
                 padding-top:300px;
                 text-align:center;
                 margin-top:0;
@@ -198,7 +199,7 @@ margin:0 auto;
         /*about me head style*/
         #aboutMeHead {
 
-            height:1200px;
+            min-height:1200px;
             width:100%;
         }
 
@@ -210,13 +211,13 @@ margin:0 auto;
                 padding-top:100px;
                 margin-top:0;
                 margin-bottom:0;
-                color:#6F1111;
+                color:#7F1111;
             }
 
             #aboutMeHead h2 {
 
                 text-align:center;
-                color:#6f1111;
+                color:#7f1111;
                 letter-spacing:5px;
                 font-size:18px;
                 font-weight:300;
@@ -227,36 +228,42 @@ margin:0 auto;
 
         /*about me content styles*/
         #aboutMe {
-            height:600px;
-            width: 1200px;
-            border:2px solid #aaaaaa;
+            min-height:600px;
+            width: 75%;
+            min-width:399px;
+            background-color:transparent;
             margin:100px auto;
             margin-top:20px;
             display:table;
             float:none;
-            background-color: #eeeeee;
         }
 
             /*about mixing styles*/
             #aboutMixing {
 
-                height:608px;
-                width:399px;
-                float:left;
+                height:610px;
+                width:33%;
+                border:2px solid #aaaaaa;
+                display:inline-block;
+                margin:0 auto;
+                box-shadow: 2px 2px 5px 5px #424242;
+                float:none;
+                align-self:center;
             }
 
                 /*about mixing background style*/
                 #aboutMixingBackgroundSet {
 
                     height:608px;
-                    width:399px;
+                    width:24.5%;
+                    margin:0 auto;
                     position:absolute;
                     z-index:6;
                 }
 
                     #aboutMixingBackgroundImage {
 
-                        height:612px;
+                        height:608px;
                         width:100%;
                         background-image: url('res/images/mixingboard.png');
                         background-position:center;
@@ -284,7 +291,7 @@ margin:0 auto;
                 #aboutMixingForegroundSet {
 
                     height:608px;
-                    width:399px;
+                    width:24.5%;
                     position:absolute;
                     z-index:7;
                     padding: 0;
@@ -302,7 +309,7 @@ margin:0 auto;
 
                         text-align:center;
                         padding:5px;
-                        padding-top:0px;
+                        padding-top:25px;
                         text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
                     }
                 /*END about mixing foreground style*/
@@ -312,17 +319,22 @@ margin:0 auto;
             /*about myself styles*/
             #aboutMyself {
 
-                height:608px;
-                width:398px;
+                height:610px;
+                width:33%;
                 border:2px solid #aaaaaa;
-                float:left;
+                display:inline-block;
+                margin:0 auto;
+                box-shadow: 2px 2px 5px 5px #424242;
+                float:none;
+                align-self:center;
             }
 
                 /*about myself background style*/
                 #aboutMyselfBackgroundSet {
 
                     height:608px;
-                    width:398px;
+                    width:24.5%;
+                    margin:0 auto;
                     position:absolute;
                     z-index:10;
                 }
@@ -357,7 +369,7 @@ margin:0 auto;
                 #aboutMyselfForegroundSet {
 
                     height:608px;
-                    width:398px;
+                    width:24.5%;
                     position:absolute;
                     padding: 0;
                     margin: 0 auto;
@@ -375,7 +387,7 @@ margin:0 auto;
 
                         text-align:center;
                         padding:5px;
-                        padding-top:0px;
+                        padding-top:25px;
                         text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
                     }
                 /*END about myself foreground style*/
@@ -385,23 +397,29 @@ margin:0 auto;
             /*about mastering styles*/
             #aboutMastering {
 
-                height:608px;
-                width:399px;
-                float:left;
+                height:610px;
+                width:33%;
+                border:2px solid #aaaaaa;
+                display:inline-block;
+                margin:0 auto;
+                box-shadow: 2px 2px 5px 5px #424242;
+                float:none;
+                align-self:center;
             }
 
                 /*about mastering background style*/
                 #aboutMasteringBackgroundSet {
 
                     height:608px;
-                    width:399px;
+                    width:24.5%;
+                    margin:0 auto;
                     position:absolute;
                     z-index:10;
                 }
 
                     #aboutMasteringBackgroundImage {
 
-                        height:612px;
+                        height:608px;
                         width:100%;
                         background-image: url('res/images/music.jpg');
                         background-position:center;
@@ -429,7 +447,7 @@ margin:0 auto;
                 #aboutMasteringForegroundSet {
 
                     height:608px;
-                    width:399px;
+                    width:24.5%;
                     padding: 0;
                     margin: 0 auto;
                     position:absolute;
@@ -447,7 +465,7 @@ margin:0 auto;
 
                         text-align:center;
                         padding:5px;
-                        padding-top:0px;
+                        padding-top:25px;
                         text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
                     }
                 /*END about mastering foreground style*/
@@ -463,21 +481,77 @@ margin:0 auto;
 
             height:50px;
             width:100%;
-            background-color:#444444;
+            background-color:#333333;
+            box-shadow:2px 2px 5px 5px #222222;
         }
 
             #footer p {
 
                 text-align:center;
-                color: #888888;
+                color: #999999;
                 font-weight:600;
                 padding-top:15px;
                 letter-spacing:2px;
                 font-size:14px;
                 margin-top:0;
+                margin-bottom:0;
             }
         /* END footer style */
 
     /*END foreground styles*/
 
+@media(max-width:1680px) {
+
+    #aboutMixing, #aboutMyself, #aboutMastering {
+        display:flex;
+        margin-bottom:10px;
+        width:75%;
+    }
+
+    #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
+    #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
+
+        width:56%;
+    }
+
+    .backgroundSet, .backgroundImage {
+
+        min-height:1200px;
+    }
+
+    #aboutMeBackgroundImage, #aboutMeBackgroundFX {
+
+        min-height:2300px;
+    }
+
+    #homeBackgroundImage, #homeBackgroundFX {
+
+        min-height:1340px;
+    }
+
+    @media(max-width:1095px) {
+
+        nav {
+
+            height:115px;
+        }
+        nav #logo, nav #navLinks, nav #navLinks li {
+
+            float:none;
+            width:100%;
+            text-align:center;
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+        nav #navLinks {
+
+            display:flex;
+            padding-top:15px;
+            padding-bottom:20px;
+            white-space:nowrap;
+
+        }
+    }
+}
 /*END body styles*/
