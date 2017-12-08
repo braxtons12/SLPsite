@@ -61,7 +61,7 @@ margin:0 auto;
 
             #contactBackgroundImage {
 
-                min-height: 1000px;
+                min-height: 1300px;
                 width: 100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -114,7 +114,7 @@ margin:0 auto;
 
             #contactBackgroundFX {
 
-                min-height:1000px;
+                min-height:1300px;
                 width:100%;
                 background-position:center;
                 background-size:cover;
@@ -642,7 +642,7 @@ margin:0 auto;
 
             #js_send {
 
-                margin-bottom:300px;
+                margin-bottom:620px;
             }
 
         /*END contact styles*/
@@ -706,6 +706,11 @@ margin:0 auto;
 
             height:115px;
         }
+
+        #contactBackgroundImage, #contactBackgroundFX {
+
+            min-height:1340px;
+        }
         nav #logo, nav #navLinks, nav #navLinks li {
 
             float:none;
@@ -746,174 +751,134 @@ margin:0 auto;
             min-height:1340px;
         }
 
-        @media(max-width:540px) {
+        @media(max-width:640px) {
 
-            #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
-            #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
+            #contactBackgroundImage, #contactBackgroundFX {
 
-                width:56%;
+                min-height:1160px;
             }
 
-            #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
+            #js_send {
 
-                font-size:30px;
-                padding-left:10px;
-                padding-right:10px;
-                padding-top:145px;
+                margin-bottom:400px;
             }
 
-            #aboutMixingForegroundSet p, #aboutMyselfForegroundSet p, #aboutMasteringForegroundSet p {
-
-                font-size:16px;
-            }
-
-            #portfolioHead h1 {
-
-                font-size:75px;
-            }
-
-            #portfolioHead h2 {
-
-                font-size:35px;
-            }
-
-            @media(max-width:535px) {
+            @media(max-width:540px) {
 
                 #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
                 #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
 
-                    width:55.6%;
+                    width:56%;
                 }
 
-                #aboutMixingBackgroundFX, #aboutMyselfBackgroundFX, #aboutMasteringBackgroundFX {
+                #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
 
-                    height:200px;
+                    font-size:30px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    padding-top:145px;
                 }
 
-                @media(max-width:480px) {
+                #aboutMixingForegroundSet p, #aboutMyselfForegroundSet p, #aboutMasteringForegroundSet p {
+
+                    font-size:16px;
+                }
+
+                #portfolioHead h1 {
+
+                    font-size:75px;
+                }
+
+                #portfolioHead h2 {
+
+                    font-size:35px;
+                }
+
+                @media(max-width:535px) {
+
+                    #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
+                    #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
+
+                        width:55.6%;
+                    }
 
                     #aboutMixingBackgroundFX, #aboutMyselfBackgroundFX, #aboutMasteringBackgroundFX {
 
-                        height:230px;
+                        height:200px;
                     }
 
-                    #aboutMeBackgroundImage, #aboutMeBackgroundFX {
+                    @media(max-width:480px) {
 
-                        min-height:2400px;
-                    }
+                        #aboutMixingBackgroundFX, #aboutMyselfBackgroundFX, #aboutMasteringBackgroundFX {
 
-                    #portfolioBackgroundImage, #portofolioBackgroundFX {
-
-                        min-height:1300px;
-                    }
-
-
-                    @media(max-width:440px) {
-
-                        nav {
-
-                            height:85px !important;
-                        }
-
-                        #contactBackgroundImage, #contactBackgroundFX {
-
-                            min-height:1060px;
-                        }
-
-                        #logo {
-
-                            font-size:20px !important;
-                            padding-top:10px !important;
-                        }
-
-                        #navLinks {
-
-                            padding-top:0px !important;
-                        }
-
-                        #navLinks li a {
-
-                            font-size:13px !important;
-                        }
-
-                        #portfolioHead {
-
-                            margin-top:100px !important;
-                        }
-
-                        #intro {
-
-                            height:700px;
-                        }
-
-                        #intro h2 {
-
-                            font-size:60px;
-                            padding-left:10px;
-                            padding-right:10px;
-                            padding-top:100px;
-                        }
-
-                        .backgroundSet, .backgroundImage, .backgroundFX, #homeBackgroundImage, #homeBackgroundFX {
-
-                            min-height:800px;
+                            height:230px;
                         }
 
                         #aboutMeBackgroundImage, #aboutMeBackgroundFX {
 
-                            min-height:2340px;
+                            min-height:2400px;
                         }
 
-                        #portfolioBackgroundImage, #portfolioBackgroundFX {
+                        #portfolioBackgroundImage, #portofolioBackgroundFX {
 
-                            min-height:1200px;
+                            min-height:1300px;
                         }
 
-                        #playlist {
 
-                            margin-bottom: 120px;
-                        }
+                        @media(max-width:440px) {
 
-                        @media(max-width:400px) {
+                            #js_send {
+
+                                margin-bottom:340px;
+                            }
+
+                            nav {
+
+                                height:85px !important;
+                            }
+
+                            #contactBackgroundImage, #contactBackgroundFX {
+
+                                min-height:1060px;
+                            }
 
                             #logo {
 
-                                font-size:16px !important;
+                                font-size:20px !important;
+                                padding-top:10px !important;
+                            }
+
+                            #navLinks {
+
+                                padding-top:0px !important;
                             }
 
                             #navLinks li a {
 
-                                font-size:12px !important;
+                                font-size:13px !important;
+                            }
+
+                            #portfolioHead {
+
+                                margin-top:100px !important;
+                            }
+
+                            #intro {
+
+                                height:700px;
                             }
 
                             #intro h2 {
 
-                                font-size:50px;
+                                font-size:60px;
                                 padding-left:10px;
                                 padding-right:10px;
+                                padding-top:100px;
                             }
 
-                            #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
+                            .backgroundSet, .backgroundImage, .backgroundFX, #homeBackgroundImage, #homeBackgroundFX {
 
-                                font-size:25px;
-                                padding-left:10px;
-                                padding-right:10px;
-                                padding-top:155px;
-                            }
-
-                            #aboutMixingForegroundSet p, #aboutMyselfForegroundSet p, #aboutMasteringForegroundSet p {
-
-                                font-size:12px;
-                            }
-
-                            #portfolioHead h1 {
-
-                                font-size:50px;
-                            }
-
-                            #portfolioHead h2 {
-
-                                font-size:25px;
+                                min-height:800px;
                             }
 
                             #aboutMeBackgroundImage, #aboutMeBackgroundFX {
@@ -921,40 +886,106 @@ margin:0 auto;
                                 min-height:2340px;
                             }
 
-                            #portfolioBackgroundImage, #portofolioBackgroundFX {
+                            #portfolioBackgroundImage, #portfolioBackgroundFX {
 
-                                min-height:1180px;
+                                min-height:1200px;
                             }
 
-                            @media(max-width:340px) {
+                            #playlist {
+
+                                margin-bottom: 120px;
+                            }
+
+                            @media(max-width:400px) {
 
                                 #logo {
 
-                                    font-size:15px !important;
+                                    font-size:16px !important;
                                 }
 
                                 #navLinks li a {
 
-                                    font-size:10px !important;
+                                    font-size:12px !important;
                                 }
 
                                 #intro h2 {
 
-                                    font-size:40px;
+                                    font-size:50px;
                                     padding-left:10px;
                                     padding-right:10px;
                                 }
 
+                                #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
+
+                                    font-size:25px;
+                                    padding-left:10px;
+                                    padding-right:10px;
+                                    padding-top:155px;
+                                }
+
+                                #aboutMixingForegroundSet p, #aboutMyselfForegroundSet p, #aboutMasteringForegroundSet p {
+
+                                    font-size:12px;
+                                }
+
                                 #portfolioHead h1 {
 
-                                    font-size:40px;
+                                    font-size:50px;
                                 }
 
                                 #portfolioHead h2 {
 
-                                    font-size:20px;
+                                    font-size:25px;
                                 }
 
+                                #aboutMeBackgroundImage, #aboutMeBackgroundFX {
+
+                                    min-height:2340px;
+                                }
+
+                                #portfolioBackgroundImage, #portofolioBackgroundFX {
+
+                                    min-height:1180px;
+                                }
+
+                                @media(max-width:360px) {
+
+                                    #js_send {
+
+                                        margin-bottom:300px;
+                                    }
+
+                                    @media(max-width:340px) {
+
+                                        #logo {
+
+                                            font-size:15px !important;
+                                        }
+
+                                        #navLinks li a {
+
+                                            font-size:10px !important;
+                                        }
+
+                                        #intro h2 {
+
+                                            font-size:40px;
+                                            padding-left:10px;
+                                            padding-right:10px;
+                                        }
+
+                                        #portfolioHead h1 {
+
+                                            font-size:40px;
+                                        }
+
+                                        #portfolioHead h2 {
+
+                                            font-size:20px;
+                                        }
+
+                                    }
+                                }
                             }
                         }
                     }
