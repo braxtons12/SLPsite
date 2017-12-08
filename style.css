@@ -625,24 +625,22 @@ margin:0 auto;
                 min-height:200px;
             }
 
-            #email, #subject, #message, #emailAlert, #subjectAlert, #messageAlert, #js_send {
+            #email, #subject, #message, #js_send {
 
                 width:100%;
                 padding:10px;
                 font-size:14px;
                 font-family:serif;
                 color:#bbbbbb;
-                text-shadow:none;
-            }
-
-            #message {
-
                 background:#191c1d;
+                border:none;
+                border-bottom: 1px solid #5555ff;
+                text-shadow:none;
             }
 
             #js_send {
 
-                margin-bottom:620px;
+                margin-bottom:630px;
             }
 
         /*END contact styles*/
