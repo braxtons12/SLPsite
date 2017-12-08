@@ -638,6 +638,16 @@ margin:0 auto;
                 text-shadow:none;
             }
 
+            #email:focus, #subject:focus, #message:focus, #js_send:focus {
+
+                border-color:#5555ff;
+            }
+
+            #email:active, #subject:active, #message:active, #js_send:active {
+
+                border-color:#5555ff;
+            }
+
             #js_send {
 
                 margin-bottom:630px;
