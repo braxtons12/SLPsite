@@ -6,10 +6,10 @@ margin:0 auto;
 
 }
 
+
     /*background styles*/
     .backgroundSet {
 
-        min-height:1200px;
         width:100%;
         float:left;
         position:relative;
@@ -20,7 +20,6 @@ margin:0 auto;
         /*background image styles*/
         .backgroundImage {
 
-            min-height:1200px;
             width:100%;
             float:left;
             position:relative;
@@ -40,7 +39,7 @@ margin:0 auto;
 
             #aboutMeBackgroundImage {
 
-                min-height: 1300px;
+                min-height:1300px;
                 width: 100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -62,6 +61,13 @@ margin:0 auto;
 
             #contactBackgroundImage {
 
+                min-height: 1000px;
+                width: 100%;
+                background-image: url('res/images/mixingboard.png');
+                background-position:center;
+                background-size:cover;
+                filter:blur(10px);
+                margin:0 auto;
             }
 
         /*END background image styles*/
@@ -108,6 +114,13 @@ margin:0 auto;
 
             #contactBackgroundFX {
 
+                min-height:1000px;
+                width:100%;
+                background-position:center;
+                background-size:cover;
+                background-color:#bbbbbb;
+                opacity: 0.2;
+                margin:0 auto;
             }
         /*END background FX styles*/
 
@@ -570,6 +583,70 @@ margin:0 auto;
 
         /*END portfolio styles*/
 
+        /*contact styles*/
+
+            #contactHead {
+
+                margin-top:100px;
+                color:#7f1111;
+                text-shadow: 2px 2px 2px #222222 0px 0px 0px #222222;
+            }
+
+            #contactHead h1 {
+
+                text-align:center;
+            }
+
+
+            #paragraphForeground {
+
+                color:#aaaaaa;
+                font-family:serif;
+                text-align:center;
+                font-weight:500;
+                padding:15px;
+                padding-left:30px;
+                padding-right:30px;
+            }
+
+            .formSet {
+                margin-top:20px;
+                width:85%;
+            }
+
+            .emailSet, .subjectSet, .messageSet, .buttonSet {
+
+                display:block;
+                width:100%;
+            }
+
+            .messageSet, #message {
+
+                min-height:200px;
+            }
+
+            #email, #subject, #message, #emailAlert, #subjectAlert, #messageAlert, #js_send {
+
+                width:100%;
+                padding:10px;
+                font-size:14px;
+                font-family:serif;
+                color:#bbbbbb;
+                text-shadow:none;
+            }
+
+            #message {
+
+                background:#191c1d;
+            }
+
+            #js_send {
+
+                margin-bottom:300px;
+            }
+
+        /*END contact styles*/
+
         /* footer style */
         #footer {
 
@@ -736,6 +813,11 @@ margin:0 auto;
                         nav {
 
                             height:85px !important;
+                        }
+
+                        #contactBackgroundImage, #contactBackgroundFX {
+
+                            min-height:1060px;
                         }
 
                         #logo {
