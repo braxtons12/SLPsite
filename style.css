@@ -128,10 +128,10 @@ margin:0 auto;
 
             height:80px;
             width:100%;
-            background-color:#333333;
             margin-left:0;
             margin-right:0;
             margin-top:0;
+            background-color:#333333;
             box-shadow: 2px 2px 2px 2px #222222;
         }
 
@@ -733,9 +733,58 @@ margin:0 auto;
 
                     @media(max-width:440px) {
 
+                        nav {
+
+                            height:85px !important;
+                        }
+
+                        #logo {
+
+                            font-size:20px !important;
+                            padding-top:10px !important;
+                        }
+
+                        #navLinks {
+
+                            padding-top:0px !important;
+                        }
+
+                        #navLinks li a {
+
+                            font-size:13px !important;
+                        }
+
+                        #portfolioHead {
+
+                            margin-top:100px !important;
+                        }
+
+                        #intro {
+
+                            height:700px;
+                        }
+
+                        #intro h2 {
+
+                            font-size:60px;
+                            padding-left:10px;
+                            padding-right:10px;
+                            padding-top:100px;
+                        }
+
+                        .backgroundSet, .backgroundImage, .backgroundFX, #homeBackgroundImage, #homeBackgroundFX {
+
+                            min-height:800px;
+                        }
+
                         #aboutMeBackgroundImage, #aboutMeBackgroundFX {
 
                             min-height:2340px;
+                        }
+
+                        #portfolioBackgroundImage, #portfolioBackgroundFX {
+
+                            min-height:1200px;
                         }
 
                         #playlist {
@@ -744,6 +793,23 @@ margin:0 auto;
                         }
 
                         @media(max-width:400px) {
+
+                            #logo {
+
+                                font-size:16px !important;
+                            }
+
+                            #navLinks li a {
+
+                                font-size:12px !important;
+                            }
+
+                            #intro h2 {
+
+                                font-size:50px;
+                                padding-left:10px;
+                                padding-right:10px;
+                            }
 
                             #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
 
@@ -775,7 +841,38 @@ margin:0 auto;
 
                             #portfolioBackgroundImage, #portofolioBackgroundFX {
 
-                                min-height:1240px;
+                                min-height:1180px;
+                            }
+
+                            @media(max-width:340px) {
+
+                                #logo {
+
+                                    font-size:15px !important;
+                                }
+
+                                #navLinks li a {
+
+                                    font-size:10px !important;
+                                }
+
+                                #intro h2 {
+
+                                    font-size:40px;
+                                    padding-left:10px;
+                                    padding-right:10px;
+                                }
+
+                                #portfolioHead h1 {
+
+                                    font-size:40px;
+                                }
+
+                                #portfolioHead h2 {
+
+                                    font-size:20px;
+                                }
+
                             }
                         }
                     }
