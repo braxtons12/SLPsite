@@ -1,9 +1,8 @@
 /*body styles*/
 body {
-font-family: 'Permanent Marker', cursive;
-text-shadow: -1px -1px 1px #222222, 1px 1px 1px #222222;
-margin:0 auto;
-
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: -1px -1px 1px #222222, 1px 1px 1px #222222;
+	margin:0 auto;
 }
 
 
@@ -29,7 +28,7 @@ margin:0 auto;
 
             #homeBackgroundImage {
 
-                min-height:1300px;
+                min-height:900px;
                 width:100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -39,7 +38,7 @@ margin:0 auto;
 
             #aboutMeBackgroundImage {
 
-                min-height:1300px;
+                min-height:900px;
                 width: 100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -50,7 +49,7 @@ margin:0 auto;
 
             #portfolioBackgroundImage {
 
-                min-height: 1300px;
+                min-height: 900px;
                 width: 100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -61,7 +60,7 @@ margin:0 auto;
 
             #contactBackgroundImage {
 
-                min-height: 1300px;
+                min-height: 900px;
                 width: 100%;
                 background-image: url('res/images/mixingboard.png');
                 background-position:center;
@@ -75,8 +74,6 @@ margin:0 auto;
         /*background FX styles*/
         .backgroundFX {
 
-            min-height:1300px;
-            width:100%;
             float:left;
             position:absolute;
             z-index:1;
@@ -85,14 +82,14 @@ margin:0 auto;
 
             #homeBackgroundFX {
 
-                min-height:1300px;
+                min-height:900px;
                 width:100%;
                 margin:0 auto;
             }
 
             #aboutMeBackgroundFX {
 
-                min-height:1300px;
+                min-height:900px;
                 width:100%;
                 background-position:center;
                 background-size:cover;
@@ -103,7 +100,7 @@ margin:0 auto;
 
             #portofolioBackgroundFX {
 
-                min-height:1300px;
+                min-height:900px;
                 width:100%;
                 background-position:center;
                 background-size:cover;
@@ -114,7 +111,7 @@ margin:0 auto;
 
             #contactBackgroundFX {
 
-                min-height:1300px;
+                min-height:900px;
                 width:100%;
                 background-position:center;
                 background-size:cover;
@@ -129,7 +126,7 @@ margin:0 auto;
     /*foreground styles*/
     .foregroundSet {
 
-        height:1200px;
+        height:800px;
         width:100%;
         float:left;
         position:absolute;
@@ -144,7 +141,7 @@ margin:0 auto;
             margin-left:0;
             margin-right:0;
             margin-top:0;
-            background-color:#333333;
+            background-color:#25252a;
             box-shadow: 2px 2px 2px 2px #222222;
         }
 
@@ -161,6 +158,7 @@ margin:0 auto;
                 letter-spacing:2px;
                 font-weight:900;
                 white-space:nowrap;
+				text-shadow: 4px 4px 8px #181818;
             }
 
                 #logo a {
@@ -205,8 +203,9 @@ margin:0 auto;
         /* introduction style */
         #intro {
 
-            height:1200px;
+            height: 823px;
             width:100%;
+			margin: 0 auto;
         }
 
             #intro h2 {
@@ -226,7 +225,7 @@ margin:0 auto;
         /*about me head style*/
         #aboutMeHead {
 
-            min-height:1100px;
+            min-height:610px;
             width:100%;
         }
 
@@ -235,7 +234,7 @@ margin:0 auto;
                 font-size:60px;
                 text-align:center;
                 letter-spacing:4px;
-                padding-top:100px;
+                padding-top:50px;
                 margin-top:0;
                 margin-bottom:0;
                 color:#7F1111;
@@ -246,22 +245,28 @@ margin:0 auto;
                 text-align:center;
                 color:#7f1111;
                 letter-spacing:5px;
-                font-size:18px;
+                font-size:24px;
                 font-weight:300;
                 margin-top:5px;
                 margin-bottom:30px;
+				font-family: 'Shadows Into Light', cursive;
+				font-weight: 800;
+				text-shadow: -2px -2px 2px #1f0000, 2px 2px 2px #1f0000;
             }
         /*END about me head style*/
 
         /*about me content styles*/
         #aboutMe {
-            min-height:600px;
+            min-height:610px;
             width: 75%;
             background-color:transparent;
             margin:100px auto;
-            margin-top:20px;
+			margin-bottom: 30px;
+            margin-top:0px;
             display:table;
             float:none;
+			font-family: 'Shadows Into Light', cursive;
+			font-weight: 400;
         }
 
             /*about mixing styles*/
@@ -291,7 +296,7 @@ margin:0 auto;
 
                         height:608px;
                         width:100%;
-                        background-image: url('res/images/mixingboard.png');
+                        background-image: url('res/images/mixingboard2.jpg');
                         background-position:center;
                         background-size:cover;
                         position:relative;
@@ -303,10 +308,10 @@ margin:0 auto;
                     #aboutMixingBackgroundFX {
 
                         margin-top:200px;
-                        height:160px;
+                        height:280px;
                         width:100%;
-                        background-color:#bbbbbb;
-                        opacity:0.4;
+                        background-color:#080808;
+                        opacity:0.9;
                         position: absolute;
                         z-index:5;
                         float:left;
@@ -328,7 +333,8 @@ margin:0 auto;
 
                         padding-top:120px;
                         text-align:center;
-                        font-size:50px;
+                        font-size:55px;
+						text-shadow: -2px -2px 2px #3f0000, 2px 2px 2px #3f0000;
                     }
 
                     #aboutMixingForegroundSet p {
@@ -336,91 +342,15 @@ margin:0 auto;
                         text-align:center;
                         padding:5px;
                         padding-top:25px;
-                        text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
+                        text-shadow: -1px -1px 1px #040404, 1px 1px 1px #040404;
+						color: #bbbbbb;
+						font-size: 22px;
                     }
                 /*END about mixing foreground style*/
 
             /*END about mixing styles*/
 
             /*about myself styles*/
-            #aboutMyself {
-
-                height:610px;
-                width:33%;
-                border:2px solid #aaaaaa;
-                display:inline-block;
-                margin:0 auto;
-                box-shadow: 2px 2px 5px 5px #424242;
-                float:none;
-                align-self:center;
-            }
-
-                /*about myself background style*/
-                #aboutMyselfBackgroundSet {
-
-                    height:608px;
-                    width:24.5%;
-                    margin:0 auto;
-                    position:absolute;
-                    z-index:10;
-                }
-
-                    #aboutMyselfBackgroundImage {
-
-                        height:608px;
-                        width:100%;
-                        background-image: url('res/images/music.jpg');
-                        background-position:center;
-                        background-size:cover;
-                        position:relative;
-                        z-index:8;
-                        filter:blur(2px);
-                        float:left;
-                    }
-
-                    #aboutMyselfBackgroundFX {
-
-                        margin-top:200px;
-                        height:160px;
-                        width:100%;
-                        position:absolute;
-                        background-color:#bbbbbb;
-                        opacity:0.4;
-                        z-index:9;
-                        float:left;
-                    }
-                /*END about myself background style*/
-
-                /*about myself foreground style*/
-                #aboutMyselfForegroundSet {
-
-                    height:608px;
-                    width:24.5%;
-                    position:absolute;
-                    padding: 0;
-                    margin: 0 auto;
-                    z-index:11;
-                }
-
-                    #aboutMyselfForegroundSet h1 {
-
-                        padding-top:120px;
-                        text-align:center;
-                        font-size:50px;
-                    }
-
-                    #aboutMyselfForegroundSet p {
-
-                        text-align:center;
-                        padding:5px;
-                        padding-top:25px;
-                        text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
-                    }
-                /*END about myself foreground style*/
-
-            /*END about myself styles*/
-
-            /*about mastering styles*/
             #aboutMastering {
 
                 height:610px;
@@ -433,7 +363,7 @@ margin:0 auto;
                 align-self:center;
             }
 
-                /*about mastering background style*/
+                /*about myself background style*/
                 #aboutMasteringBackgroundSet {
 
                     height:608px;
@@ -447,7 +377,7 @@ margin:0 auto;
 
                         height:608px;
                         width:100%;
-                        background-image: url('res/images/music.jpg');
+                        background-image: url('res/images/mastering.jpg');
                         background-position:center;
                         background-size:cover;
                         position:relative;
@@ -459,18 +389,99 @@ margin:0 auto;
                     #aboutMasteringBackgroundFX {
 
                         margin-top:200px;
-                        height:160px;
+                        height:280px;
                         width:100%;
                         position:absolute;
-                        background-color:#bbbbbb;
-                        opacity:0.4;
+                        background-color:#080808;
+                        opacity:0.9;
+                        z-index:9;
+                        float:left;
+                    }
+                /*END about myself background style*/
+
+                /*about myself foreground style*/
+                #aboutMasteringForegroundSet {
+
+                    height:608px;
+                    width:24.5%;
+                    position:absolute;
+                    padding: 0;
+                    margin: 0 auto;
+                    z-index:11;
+                }
+
+                    #aboutMasteringForegroundSet h1 {
+
+                        padding-top:120px;
+                        text-align:center;
+                        font-size:55px;
+						text-shadow: -2px -2px 2px #3f0000, 2px 2px 2px #3f0000;
+                    }
+
+                    #aboutMasteringForegroundSet p {
+
+                        text-align:center;
+                        padding:5px;
+                        padding-top:25px;
+                        text-shadow: -1px -1px 1px #040404, 1px 1px 1px #040404;
+						color: #bbbbbb;
+						font-size: 23px;
+                    }
+                /*END about myself foreground style*/
+
+            /*END about myself styles*/
+
+            /*about mastering styles*/
+            #aboutAdditionalServices {
+
+                height:610px;
+                width:33%;
+                border:2px solid #aaaaaa;
+                display:inline-block;
+                margin:0 auto;
+                box-shadow: 2px 2px 5px 5px #424242;
+                float:none;
+                align-self:center;
+            }
+
+                /*about mastering background style*/
+                #aboutAdditionalServicesBackgroundSet {
+
+                    height:608px;
+                    width:24.5%;
+                    margin:0 auto;
+                    position:absolute;
+                    z-index:10;
+                }
+
+                    #aboutAdditionalServicesBackgroundImage {
+
+                        height:608px;
+                        width:100%;
+                        background-image: url('res/images/studio-one.png');
+                        background-position:center;
+                        background-size:cover;
+                        position:relative;
+                        z-index:8;
+                        filter:blur(2px);
+                        float:left;
+                    }
+
+                    #aboutAdditionalServicesBackgroundFX {
+
+                        margin-top:200px;
+                        height:280px;
+                        width:100%;
+                        position:absolute;
+                        background-color:#080808;
+                        opacity:0.9;
                         z-index:9;
                         float:left;
                     }
                 /*END about mastering background style*/
 
                 /*about mastering forground style*/
-                #aboutMasteringForegroundSet {
+                #aboutAdditionalServicesForegroundSet {
 
                     height:608px;
                     width:24.5%;
@@ -480,19 +491,24 @@ margin:0 auto;
                     z-index:11;
                 }
 
-                    #aboutMasteringForegroundSet h1 {
+                    #aboutAdditionalServicesForegroundSet h1 {
 
-                        padding-top:120px;
+                        padding-top:140px;
                         text-align:center;
                         font-size:50px;
+						color: #7f1111;
+						text-shadow: -2px -2px 2px #3f0000, 2px 2px 2px #3f0000;
+						font-weight: 500;
                     }
 
-                    #aboutMasteringForegroundSet p {
+                    #aboutAdditionalServicesForegroundSet p {
 
                         text-align:center;
                         padding:5px;
                         padding-top:25px;
-                        text-shadow: -1px -1px 1px #999999, 1px 1px 1px #999999;
+                        text-shadow: -1px -1px 1px #040404, 1px 1px 1px #040404;
+						color: #bbbbbb;
+						font-size: 24px;
                     }
                 /*END about mastering foreground style*/
 
@@ -508,24 +524,16 @@ margin:0 auto;
             #portfolioHead {
 
                 display:block;
-                margin-top:150px;
-                margin-bottom:85px;
+                margin-top:75px;
+                margin-bottom:50px;
             }
 
             #portfolioHead h1 {
 
                 color:#7f1111;
                 text-align:center;
-                font-size:100px;
+                font-size:80px;
                 margin-bottom:30px;
-            }
-
-            #portfolioHead h2 {
-
-                color:#3f3131;
-                margin-top:0px;
-                text-align:center;
-                font-size:40px;
             }
 
             /*END portfolio head styles*/
@@ -544,11 +552,11 @@ margin:0 auto;
 
             #playlist {
 
-                min-height:610px;
+                min-height:300px;
                 margin-top:0px;
                 padding-top:0px;
                 display:block;
-                margin-bottom:100px;
+                margin-bottom:250px;
                 padding-bottom:5px;
             }
 
@@ -587,7 +595,7 @@ margin:0 auto;
 
             #contactHead {
 
-                margin-top:100px;
+                margin-top:50px;
                 color:#7f1111;
                 text-shadow: 2px 2px 2px #222222 0px 0px 0px #222222;
             }
@@ -600,7 +608,9 @@ margin:0 auto;
 
             #paragraphForeground {
 
-                color:#aaaaaa;
+                color:#dddddd;
+				text-shadow: -2px -2px 2px #080808, 2px 2px 2px #080808;
+				font-size: 20px;
                 font-family:serif;
                 text-align:center;
                 font-weight:500;
@@ -650,7 +660,7 @@ margin:0 auto;
 
             #js_send {
 
-                margin-bottom:630px;
+                margin-bottom:315px;
             }
 
         /*END contact styles*/
@@ -681,14 +691,14 @@ margin:0 auto;
 
 @media(max-width:1680px) {
 
-    #aboutMixing, #aboutMyself, #aboutMastering {
+    #aboutMixing, #aboutMastering, #aboutAdditionalServices {
         display:flex;
         margin-bottom:10px;
         width:75%;
     }
 
-    #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
-    #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
+    #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet,
+    #aboutAdditionalServicesBackgroundSet, #aboutAdditionalServicesForegroundSet {
 
         width:55.85%;
     }
@@ -773,13 +783,13 @@ margin:0 auto;
 
             @media(max-width:540px) {
 
-                #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
-                #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
+                #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet,
+                #aboutAdditionalServicesBackgroundSet, #aboutAdditionalServicesForegroundSet {
 
                     width:56%;
                 }
 
-                #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
+                #aboutMixingForegroundSet h1, #aboutMasteringForegroundSet h1, #aboutAdditionalServicesForegroundSet h1 {
 
                     font-size:30px;
                     padding-left:10px;
@@ -787,7 +797,7 @@ margin:0 auto;
                     padding-top:145px;
                 }
 
-                #aboutMixingForegroundSet p, #aboutMyselfForegroundSet p, #aboutMasteringForegroundSet p {
+                #aboutMixingForegroundSet p, #aboutMasteringForegroundSet p, #aboutAdditionalServicesForegroundSet p {
 
                     font-size:16px;
                 }
@@ -804,20 +814,20 @@ margin:0 auto;
 
                 @media(max-width:535px) {
 
-                    #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMyselfBackgroundSet, #aboutMyselfForegroundSet,
-                    #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet {
+                    #aboutMixingBackgroundSet, #aboutMixingForegroundSet, #aboutMasteringBackgroundSet, #aboutMasteringForegroundSet,
+                    #aboutAdditionalServicesBackgroundSet, #aboutAdditionalServicesForegroundSet {
 
                         width:55.6%;
                     }
 
-                    #aboutMixingBackgroundFX, #aboutMyselfBackgroundFX, #aboutMasteringBackgroundFX {
+                    #aboutMixingBackgroundFX, #aboutMasteringBackgroundFX, #aboutAdditionalServicesBackgroundFX {
 
                         height:200px;
                     }
 
                     @media(max-width:480px) {
 
-                        #aboutMixingBackgroundFX, #aboutMyselfBackgroundFX, #aboutMasteringBackgroundFX {
+                        #aboutMixingBackgroundFX, #aboutMasteringBackgroundFX, #aboutAdditionalServicesBackgroundFX {
 
                             height:230px;
                         }
@@ -923,7 +933,7 @@ margin:0 auto;
                                     padding-right:10px;
                                 }
 
-                                #aboutMixingForegroundSet h1, #aboutMyselfForegroundSet h1, #aboutMasteringForegroundSet h1 {
+                                #aboutMixingForegroundSet h1, #aboutMasteringForegroundSet h1, #aboutAdditionalServicesForegroundSet h1 {
 
                                     font-size:25px;
                                     padding-left:10px;
@@ -931,7 +941,7 @@ margin:0 auto;
                                     padding-top:155px;
                                 }
 
-                                #aboutMixingForegroundSet p, #aboutMyselfForegroundSet p, #aboutMasteringForegroundSet p {
+                                #aboutMixingForegroundSet p, #aboutMasteringForegroundSet p, #aboutAdditionalServicesForegroundSet p {
 
                                     font-size:12px;
                                 }
